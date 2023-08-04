@@ -94,8 +94,27 @@ public class Atividade1 {
 		System.out.println("Resultado em Fahrenheit " + F);
 		
 		
+		//Uma empresa tem gastos mensais e a cada 3 meses realiza um balanço para verificar a media de gastos dos 3 meses.
+		//Faça um programa que receba os valores de cada mês e imprima na tela o valor total gasto no período e a media dos gastos.
 		
-		   
+		double mes1;
+		double mes2;
+		double mes3;
+		
+		System.out.println("Digite o valor do mês 1: ");
+		mes1 =  leia.nextDouble();
+		System.out.println("Valor do mês: " + mes1);
+		
+		System.out.println("Digite o valor do mês 2: ");
+		mes2 = leia.nextDouble();
+		System.out.println("Valor do mês: " + mes2);
+		
+		System.out.println("Digite o valor do mês 3: ");
+		mes3 = leia.nextDouble();
+		System.out.println("Valor do mês: " + mes3);
+		double calculo = (mes1 + mes2 + mes3)/3;
+		System.out.println("Valor total: "  + calculo);
+		
 		  
 	
 		   
