@@ -33,7 +33,7 @@ public class ExercicioMatriz {
 	   System.out.println("Digite o nome: ");
 	   nome[contador]= sc.nextLine();
 	   
-	}
+	}  
 	
 	
 	//Faça um programa que receba o nome do aluno e as 4 notas bimestrais desse aluno
@@ -72,7 +72,7 @@ public class ExercicioMatriz {
 		  }
 	  }
 	   
-	//
+	
 }
 
 
